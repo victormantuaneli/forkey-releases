@@ -1,0 +1,53 @@
+{
+  "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
+  "name": "ForKey Community Source",
+  "identifier": "com.forkey.source",
+  "subtitle": "Professional Piano Tuning & Inharmonicity Analyzer for iOS",
+  "description": "Official SideStore repository for ForKey, the open-source professional acoustic piano tuner featuring multi-partial stroboscopic visualization, real-time inharmonicity estimation, and Railsback stretch calculation.",
+  "iconURL": "https://raw.githubusercontent.com/victormantuaneli/forkey-releases/main/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/victormantuaneli/forkey-releases/main/icon.png",
+  "website": "https://github.com/victormantuaneli/forkey-releases",
+  "tintColor": "#00E5FF",
+  "featuredApps": [
+    "com.forkey.tuner"
+  ],
+  "apps": [
+    {
+      "name": "ForKey",
+      "bundleIdentifier": "com.forkey.tuner",
+      "developerName": "Victor Mantuaneli",
+      "subtitle": "Acoustic Piano Tuner & Strobe Visualizer",
+      "version": "1.0.9",
+      "versionDate": "2026-10-27T22:08:06Z",
+      "versionDescription": "v1.0.9: Overhauled automatic note lock state machine across 88 keys with multi-harmonic sieve for bass (< B2) and subharmonic veto for treble (> B5). Robust Inharmonicity Calibration Wizard with manual capture fallback. Keep screen awake active while running.",
+      "downloadURL": "https://github.com/victormantuaneli/forkey-releases/releases/download/v1.0.9/ForKey.ipa",
+      "localizedDescription": "ForKey is a high-precision acoustic piano tuning application for iOS.\n\nKey Features:\n• 4-partial real-time stroboscopic phase visualizer\n• Inharmonicity B parameter calibration and global curve fitting\n• Railsback stretch curve computation\n• Automatic note detection with rock-solid hysteresis locking\n• Inharmonicity Calibration Wizard across 88 keys\n• Floating Swifty Debugger HUD & Calculations Inspector\n• Screen sleep prevention while tuning",
+      "iconURL": "https://raw.githubusercontent.com/victormantuaneli/forkey-releases/main/icon.png",
+      "tintColor": "#00E5FF",
+      "size": 2997131,
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.0.9",
+          "buildVersion": "9",
+          "date": "2026-10-27T22:08:06Z",
+          "localizedDescription": "v1.0.9: Overhauled automatic note lock state machine across 88 keys, Inharmonicity Calibration Wizard with manual capture fallback, and screen awake while running.",
+          "downloadURL": "https://github.com/victormantuaneli/forkey-releases/releases/download/v1.0.9/ForKey.ipa",
+          "size": 2997131,
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "ForKey v1.0.9 Released!",
+      "identifier": "forkey-1.0.9-release",
+      "caption": "Automatic note lock, Calibration Wizard, and screen awake",
+      "date": "2026-10-27T22:08:06Z",
+      "tintColor": "#00E5FF",
+      "appID": "com.forkey.tuner",
+      "notify": true
+    }
+  ]
+}
